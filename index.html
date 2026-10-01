@@ -1,0 +1,191 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Instituto Patas que Salvam</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Instituto Patas que Salvam</h1>
+
+        <img src="img/imagem-projeto-facul.png"
+             alt="Logo Patas que Salvam com um desenho de um cachorro e gato. Resgate, proteção e defesa dos animais."
+             class="logo"
+             width="300">
+
+        <nav class="menu">
+
+            <button class="menu-hamburguer" aria-label="Abrir menu">
+                ☰
+            </button>
+            <button type="button" id="modoEscuro" aria-label="Ativar modo escuro">
+            🌙
+            </button>
+
+            <ul class="menu-lista">
+
+                <li>
+                    <a href="#" onclick="navegar('inicio'); return false;">
+                        Home
+                    </a>
+                </li>
+
+                <li class="dropdown">
+
+                    <a href="#">
+                        Instituto ▾
+                    </a>
+
+                    <ul class="submenu">
+
+                        <li>
+                            <a href="#" class="link-secao" data-secao="sobre">
+                            Sobre nós
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="link-secao" data-secao="missao-visao-valores">
+                            Missão, Visão e Valores
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="link-secao" data-secao="contato">
+                            Contato
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="#"
+                       onclick="navegar('projetos'); return false;">
+                        Projetos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                       onclick="navegar('cadastro'); return false;">
+                        Cadastro
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main id="conteudo">
+
+        <section id="sobre">
+
+            <h2>Sobre o Instituto Patas que Salvam</h2>
+
+            <p>
+                O Instituto Patas que Salvam é uma organização sem fins lucrativos
+                dedicada à proteção, ao resgate e à defesa de animais em situação
+                de abandono, maus-tratos e vulnerabilidade.
+            </p>
+
+            <p>
+                Oferecemos cuidados, alimentação, atendimento veterinário e um ambiente
+                seguro para os animais resgatados, além de incentivar a adoção responsável
+                e promover a conscientização sobre o respeito e o bem-estar animal.
+            </p>
+
+            <p>
+                <em>
+                    Nosso propósito é transformar vidas e dar a cada animal a oportunidade
+                    de encontrar cuidado, proteção e um novo lar.
+                </em>
+            </p>
+
+        </section>
+
+
+        <section id="missao-visao-valores">
+
+            <h2>Nossa missão</h2>
+
+            <p>
+                Nossa missão é proteger animais em situação de vulnerabilidade,
+                oferecer cuidados e oportunidades de recuperação e promover a adoção
+                responsável, contribuindo para uma sociedade mais consciente e respeitosa
+                com todas as formas de vida.
+            </p>
+
+            <h2>Nossa visão</h2>
+
+            <p>
+                Buscamos construir um futuro em que o abandono e os maus-tratos
+                sejam cada vez menos presentes e em que todos os animais tenham acesso
+                a uma vida digna, segura e cercada de cuidado.
+            </p>
+
+            <h2>Nossos valores</h2>
+
+            <ul>
+                <li>Respeito à vida animal</li>
+                <li>Amor e empatia</li>
+                <li>Responsabilidade</li>
+                <li>Adoção consciente</li>
+                <li>Conscientização</li>
+                <li>Proteção e defesa animal</li>
+            </ul>
+
+        </section>
+
+
+        <section id="contato">
+
+            <h2>Entre em contato</h2>
+
+            <address>
+
+                <p>
+                    <strong>Endereço:</strong>
+                    Rua dos Animais, 150 – Curitiba/PR
+                </p>
+
+                <p>
+                    <strong>Telefone:</strong>
+                    (41) 3333-2020
+                </p>
+
+                <p>
+                    <strong>E-mail:</strong>
+                    <a href="mailto:contato@patasquesalvam.org">
+                        contato@patasquesalvam.org
+                    </a>
+                </p>
+
+            </address>
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>
